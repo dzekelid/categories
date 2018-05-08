@@ -4,7 +4,7 @@ url: categories.streamdata.gallery
 tag: Categories
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-type
+github_user: streamdata-gallery-topics
 github_repo: categories
 github_branch: master
 collections:
