@@ -43,15 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Etsy Get Taxonomy Categories
-  description: Retrieves all top-level Categories.
+- name: Etsy Get Taxonomy Categories Tag
+  description: Retrieves children of a top-level Category by tag.
   image: http://pbs.twimg.com/profile_images/613742962095341568/VGmQvBw8_normal.png
   humanURL: http://www.etsy.com/
   baseURL: https://openapi.etsy.com//v2/private
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/taxonomy-categories-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/taxonomy-categories-tag-get.md
 x-common:
 - type: x-apijson--authoritative
   url: http://apis.io/apisdef/etsy.json
