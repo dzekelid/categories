@@ -24,15 +24,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Gumroad Get Products Variant Categories
-  description: Retrieve all of the existing variant categories of a product.
+- name: Gumroad Post Products Variant Categories
+  description: Create a new variant category on a product.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gumroad.jpeg
   humanURL: https://gumroad.com
   baseURL: https://api.gumroad.com//v2
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/products-product-id-variant-categories-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/products-product-id-variant-categories-post.md
 x-common:
 - type: x-application-management
   url: https://gumroad.com/settings/developer
