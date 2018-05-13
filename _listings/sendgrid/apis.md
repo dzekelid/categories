@@ -23,20 +23,22 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Categories
-  description: "**This endpoint allows you to retrieve a list of all of your categories.**\n\nCategories
-    can help organize your email analytics by enabling you to \u201Ctag\u201D emails
-    by type or broad topic. You can define your own custom categories. For more information,
-    please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html)."
+- name: SendGrid Get Categories Stats
+  description: |-
+    **This endpoint allows you to retrieve all of your email statistics for each of your categories.**
+
+    If you do not define any query parameters, this endpoint will return a sum for each category in groups of 10.
+
+    Categories allow you to group your emails together according to broad topics that you define. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-stats-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-stats-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
