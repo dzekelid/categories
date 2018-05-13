@@ -43,15 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Statistics Get Categories And Topics
-  description: Get categories and topics for statistics.
+- name: Xignite Statistics Get Categories
+  description: Get valid categories.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
   baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/xignite/getcategoriesandtopics-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/xignite/getcategories-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
