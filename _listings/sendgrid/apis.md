@@ -23,9 +23,9 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Categories Stats
+- name: SendGrid Get Categories Stats Sums
   description: |-
-    **This endpoint allows you to retrieve all of your email statistics for each of your categories.**
+    **This endpoint allows you to retrieve the total sum of each email statistic for every category over the given date range.**
 
     If you do not define any query parameters, this endpoint will return a sum for each category in groups of 10.
 
@@ -36,9 +36,9 @@ apis:
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-stats-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-stats-sums-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-stats-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-stats-sums-get-postman.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
