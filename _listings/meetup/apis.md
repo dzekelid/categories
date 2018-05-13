@@ -20,14 +20,14 @@ url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/mast
 specificationVersion: "0.14"
 apis:
 - name: Meetup Topic Categories
-  description: Returns a list of Meetup topic categories
+  description: Returns a list high level topic categories
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Meetup-Logo-1-med1.jpg
   humanURL: http://www.meetup.com/
   baseURL: https://api.meetup.com//
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/2-topic-categories-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/find-topic-categories-get.md
 x-common:
 - type: x-base
   url: http://api.meetup.com
