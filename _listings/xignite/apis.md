@@ -43,15 +43,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/xignite/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Xignite Futures List Future Categories
-  description: List commmodities future categories.
+- name: Xignite Statistics Get Categories And Topics
+  description: Get categories and topics for statistics.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/280-xignite.jpg
   humanURL: http://www.xignite.com
-  baseURL: https://www.xignite.com/xFutures.json/XigniteFutures
+  baseURL: https://www.xignite.com/xStatistics.json/XigniteStatistics
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/xignite/listfuturecategories-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/xignite/getcategoriesandtopics-post.md
 x-common:
 - type: x-net-sdk
   url: http://xignite.github.io/DotNetSDK/
