@@ -33,7 +33,44 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/products-product-id-variant-categories-variant-category-id-variants-id-get.md
+- name: Gumroad Put Products Variant Categories Variant Category Variants
+  description: Edit a variant of an existing product.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gumroad.jpeg
+  humanURL: https://gumroad.com
+  baseURL: https://api.gumroad.com//v2
+  tags: Categories
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/products-product-id-variant-categories-variant-category-id-variants-id-put.md
 x-common:
+- type: x-application-management
+  url: https://gumroad.com/settings/developer
+- type: x-base
+  url: https://api.gumroad.com/
+- type: x-blog
+  url: http://blog.gumroad.com
+- type: x-blog-rss
+  url: http://blog.gumroad.com/rss
+- type: x-developer
+  url: https://gumroad.com/developers
+- type: x-email
+  url: partners@gumroad.com
+- type: x-embeddable
+  url: https://gumroad.com/embed
+- type: x-github
+  url: https://github.com/gumroad
+- type: x-pricing
+  url: https://gumroad.com/features/pricing
+- type: x-privacy
+  url: https://gumroad.com/privacy
+- type: x-terms-of-service
+  url: https://gumroad.com/terms
+- type: x-twitter
+  url: https://twitter.com/gumroad
+- type: x-webhooks
+  url: https://gumroad.com/webhooks
+- type: x-website
+  url: https://gumroad.com
 - type: x-application-management
   url: https://gumroad.com/settings/developer
 - type: x-base
