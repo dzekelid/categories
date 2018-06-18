@@ -1,33 +1,56 @@
 ---
 name: YouTube
+x-slug: youtube
 description: YouTube allows billions of people to discover, watch and share originally-created
   videos. YouTube provides a forum for people to connect, inform, and inspire others
   across the globe and acts as a distribution platform for original content creators
   and advertisers large and small.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
 x-kinRank: "9"
-x-alexaRank: ""
-tags:
-- Videos
-- Stack Network
-- Stack
-- Google APIs
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "0"
+tags: Categories
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Youtube Parameters Veocategories
-  description: Parameters veocategories
+- name: Youtube Get Guecategories
+  x-api-slug: youtube
+  description: Returns a list of categories that can be associated with YouTube channels.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1//guideCategories
+  tags: Guecategories
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/guidecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/guidecategories-get-openapi.md
+- name: Youtube Get Veocategories
+  x-api-slug: youtube
+  description: Returns a list of categories that can be associated with YouTube videos.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  humanURL: https://www.youtube.com/
+  baseURL: https://www.googleapis.com//youtube/v1//videoCategories
+  tags: Veocategories
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/videocategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/videocategories-get-openapi.md
+- name: Youtube
+  x-api-slug: youtube
+  description: YouTube allows billions of people to discover, watch and share originally-created
+    videos. YouTube provides a forum for people to connect, inform, and inspire others
+    across the globe and acts as a distribution platform for original content creators
+    and advertisers large and small.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/videocategories-parameters.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/videocategories-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/openapi.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/

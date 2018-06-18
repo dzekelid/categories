@@ -1,39 +1,43 @@
 ---
 name: NPR
+x-slug: npr
 description: NPR delivers breaking national and world news. Also top stories from
   business, politics, health, science, technology, music, arts and culture. Subscribe
   to podcasts and RSS feeds.
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
 x-kinRank: "9"
 x-alexaRank: "641"
-tags:
-- Stack Network
-- Stack
-- Radio
-- Publishing
-- News
-- Mobile
-- Media
-- Getting Started
-- Federal Government
-- Broadcasting
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Categories
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
 - name: NPR Get a list of recommendations from a category of content from an organization
+  x-api-slug: npr
   description: This endpoint provides a list of recommendations from a category of
     content from  an organization.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
-  humanURL: http://www.npr.org
+  humanURL: http://npr.org
+  baseURL: https://api.npr.org////listening/v2/organizations/{orgId}/categories/{category}/recommendations
+  tags: News,Listening, Organizations, Org, Categories, Category, Recommendations
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listeningv2organizationsorgidcategoriescategoryrecommendations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listeningv2organizationsorgidcategoriescategoryrecommendations-get-openapi.md
+- name: NPR
+  x-api-slug: npr
+  description: NPR delivers breaking national and world news. Also top stories from
+    business, politics, health, science, technology, music, arts and culture. Subscribe
+    to podcasts and RSS feeds.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
+  humanURL: http://npr.org
   baseURL: https://api.npr.org//
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listening-v2-organizations-orgid-categories-category-recommendations-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listening-v2-organizations-orgid-categories-category-recommendations-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/openapi.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
@@ -79,6 +83,8 @@ x-common:
   url: https://twitter.com/NPR
 - type: x-twitter
   url: https://twitter.com/NPRTechTeam
+- type: x-website
+  url: http://npr.org
 - type: x-website
   url: http://www.npr.org
 include: []

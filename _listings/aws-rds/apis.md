@@ -1,34 +1,47 @@
 ---
 name: AWS RDS
+x-slug: aws-rds
 description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
-  up, operate, and scale anbsp;relational databasenbsp;in the cloud. It provides cost-efficient
+  up, operate, and scale arelational databasein the cloud. It provides cost-efficient
   and resizable capacity while managing time-consuming database administration tasks,
   freeing you up to focus on your applications and business. Amazon RDS provides you
-  six familiar database engines to choose from, includingnbsp;Amazon Aurora,nbsp;PostgreSQL,nbsp;MySQL,nbsp;MariaDB,nbsp;Oracle,
-  andnbsp;Microsoft SQL Server.
+  six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
+  andMicrosoft SQL Server.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Database
-- Amazon Web Services
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "0"
+tags: Categories
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/aws-rds/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Amazon RDS API Describe Event Categories
+  x-api-slug: amazon-rds-api
   description: Displays a list of categories for all event source types, or, if specified,
     for a specified source type.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
-  baseURL: http:://{host}//
+  baseURL: ://///?Action=DescribeEventCategories
+  tags: Event Categories
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/aws-rds/actiondescribeeventcategories-get-openapi.md
+- name: Amazon RDS API
+  x-api-slug: amazon-rds-api
+  description: Amazon Relational Database Service (Amazon RDS) makes it easy to set
+    up, operate, and scale arelational databasein the cloud. It provides cost-efficient
+    and resizable capacity while managing time-consuming database administration tasks,
+    freeing you up to focus on your applications and business. Amazon RDS provides
+    you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle,
+    andMicrosoft SQL Server.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
+  humanURL: https://aws.amazon.com/rds/
+  baseURL: :///
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/aws-rds/action-describeeventcategories-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/aws-rds/openapi.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS

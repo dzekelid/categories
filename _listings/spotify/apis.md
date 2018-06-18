@@ -1,43 +1,54 @@
 ---
 name: Spotify
-description: Spotify has created a lightweight software application that allows instant
-  listening to specific tracks or albums with virtually no buffering delay. It was
-  launched in the fall of 2008 and had approximately 10 million users by September
-  2010. Spotify offers streaming music from major and independent record labels including
-  Sony, EMI, Warner Music Group, and Universal. Users download Spotify and then log
-  onto their service enabling the on-demand streaming of music. Music can be browsed
-  by artist, album, record label, genre or playlist as well as by direct searches.
-image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
+x-slug: spotify
+description: Spotify is a digital music service that gives you access to millions
+  of songs.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
 x-kinRank: "8"
-x-alexaRank: ""
-tags:
-- Streaming
-- Stack Network
-- Stack
-- Music
-- Issues Example
-- Issues
-- Indie EdTech Data Jam
-- Change Log Example
-- Change Log
-created: "2018-05-13"
-modified: "2018-05-13"
+x-alexaRank: "133"
+tags: Categories
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Spotify Browse Categories
+  x-api-slug: spotify
+  description: '[Get a List of Browse Categories](https://developer.spotify.com/web-api/get-list-categories/)'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
+  humanURL: http://www.spotify.com
+  baseURL: https://api.spotify.com//v1//browse/categories
+  tags: Music,Categories
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browsecategories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browsecategories-get-openapi.md
 - name: Spotify Browse Category
+  x-api-slug: spotify
   description: '[Get a Single Browse Category](https://developer.spotify.com/web-api/get-category/)'
-  image: http://spotifypresscom.files.wordpress.com/2013/01/spotify-logo-primary-vertical-light-background-rgb.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
+  humanURL: http://www.spotify.com
+  baseURL: https://api.spotify.com//v1//browse/categories/{category_id}
+  tags: Music,Categories,Playlists
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
+- name: Spotify
+  x-api-slug: spotify
+  description: Spotify is a digital music service that gives you access to millions
+    of songs.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
   baseURL: https://api.spotify.com//v1
   tags: Categories
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browse-categories-category-id-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browse-categories-category-id-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/openapi.md
 x-common:
-- type: x-apijson--authoritative
+- type: x-api-json--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
 - type: x-android-sdk
   url: https://developer.spotify.com/technologies/spotify-android-sdk/
@@ -56,9 +67,13 @@ x-common:
 - type: x-console
   url: https://developer.spotify.com/web-api/console/
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/spotify
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/spotify
 - type: x-developer
   url: https://developer.spotify.com/
+- type: x-email
+  url: office@spotify.com
 - type: x-ios-sdk
   url: https://developer.spotify.com/technologies/spotify-ios-sdk/
 - type: x-issues
@@ -75,6 +90,8 @@ x-common:
   url: https://github.com/spotify
 - type: x-website
   url: http://www.spotify.com
+- type: x-website
+  url: http://spotify.com
 include: []
 maintainers:
 - FN: Kin Lane
