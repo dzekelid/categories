@@ -1,23 +1,21 @@
 ---
 name: YouTube
 x-slug: youtube
-description: YouTube allows billions of people to discover, watch and share originally-created
-  videos. YouTube provides a forum for people to connect, inform, and inspire others
-  across the globe and acts as a distribution platform for original content creators
-  and advertisers large and small.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+description: Enjoy the videos and music you love, upload original content, and share
+  it all with friends, family, and the world on YouTube.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
 x-kinRank: "9"
-x-alexaRank: "0"
+x-alexaRank: "2"
 tags: Categories
-created: "2018-06-17"
-modified: "2018-06-17"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Youtube Get Guecategories
   x-api-slug: youtube
   description: Returns a list of categories that can be associated with YouTube channels.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1//guideCategories
   tags: Guecategories
@@ -29,7 +27,7 @@ apis:
 - name: Youtube Get Veocategories
   x-api-slug: youtube
   description: Returns a list of categories that can be associated with YouTube videos.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1//videoCategories
   tags: Veocategories
@@ -40,11 +38,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/youtube/videocategories-get-openapi.md
 - name: Youtube
   x-api-slug: youtube
-  description: YouTube allows billions of people to discover, watch and share originally-created
-    videos. YouTube provides a forum for people to connect, inform, and inspire others
-    across the globe and acts as a distribution platform for original content creators
-    and advertisers large and small.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
+  description: Enjoy the videos and music you love, upload original content, and share
+    it all with friends, family, and the world on YouTube.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11515-youtube.jpg
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Categories
@@ -68,10 +64,14 @@ x-common:
   url: https://code.google.com/p/gdata-issues/issues/list?q=label:API-YouTube
 - type: x-buttons
   url: https://developers.google.com/youtube/youtube_subscribe_button
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/youtube
 - type: x-deprecation-policy
   url: https://developers.google.com/youtube/youtube-api-list
 - type: x-developer
   url: https://developers.google.com/youtube/
+- type: x-email
+  url: copyright@youtube.com
 - type: x-getting-started
   url: https://developers.google.com/youtube/v3/getting-started
 - type: x-github
@@ -84,6 +84,8 @@ x-common:
   url: https://developers.google.com/youtube/training/
 - type: x-twitter
   url: https://twitter.com/YouTubeDev
+- type: x-twitter
+  url: https://twitter.com/YouTube
 - type: x-website
   url: https://www.youtube.com/
 - type: x-widgets
