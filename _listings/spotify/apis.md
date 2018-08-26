@@ -7,51 +7,48 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spoti
 x-kinRank: "8"
 x-alexaRank: "132"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Spotify Browse Categories
-  x-api-slug: spotify
+- name: Spotify - Browse Categories
+  x-api-slug: browsecategories-get
   description: '[Get a List of Browse Categories](https://developer.spotify.com/web-api/get-list-categories/)'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//browse/categories
-  tags: Music,Categories
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browsecategories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browsecategories-get-openapi.md
-- name: Spotify Browse Category
-  x-api-slug: spotify
+- name: Spotify - Browse Category
+  x-api-slug: browsecategoriescategory-id-get
   description: '[Get a Single Browse Category](https://developer.spotify.com/web-api/get-category/)'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
   humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1//browse/categories/{category_id}
-  tags: Music,Categories,Playlists
+  baseURL: https://api.spotify.com//v1
+  tags: Music, Streaming, Indie EdTech Data Jam, Issues Example, Change Log Example,
+    Stack Network, Stack, Mobile, internet, Technology, General Data, Relative Data,
+    Service API, Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browsecategoriescategory-id-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/browsecategoriescategory-id-get-openapi.md
-- name: Spotify
-  x-api-slug: spotify
-  description: Spotify is a digital music service that gives you access to millions
-    of songs.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg
-  humanURL: http://www.spotify.com
-  baseURL: https://api.spotify.com//v1
-  tags: Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: https://developer.spotify.com/wp-content/uploads/apis.json
 - type: x-android-sdk
   url: https://developer.spotify.com/technologies/spotify-android-sdk/
+- type: x-api-gallery
+  url: http://spire.global.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://spotify.stack.network
 - type: x-application-gallery
   url: https://developer.spotify.com/my-applications/
 - type: x-application-gallery

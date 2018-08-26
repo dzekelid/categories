@@ -26,26 +26,4 @@ paths:
           description: OK
       tags:
       - Categories
-  /subcategories/:
-    get:
-      summary: Get Subcategories
-      description: Returns a list of subcategory as subcategories.
-      operationId: getSubcategories
-      x-api-path-slug: subcategories-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Subcategories
-  /subcategories/{id}/:
-    get:
-      summary: Get Subcategories
-      description: Gets a subcategory by ID as subcategory.
-      operationId: getSubcategories
-      x-api-path-slug: subcategoriesid-get
-      responses:
-        200:
-          description: OK
-      tags:
-      - Subcategories
 ---

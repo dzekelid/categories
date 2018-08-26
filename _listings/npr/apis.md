@@ -8,37 +8,64 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jp
 x-kinRank: "9"
 x-alexaRank: "598"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/apis.md
 specificationVersion: "0.14"
 apis:
-- name: NPR Get a list of recommendations from a category of content from an organization
-  x-api-slug: npr
+- name: NPR One API Reference - Get a list of recommendations from a category of content
+    from an organization
+  x-api-slug: listeningv2organizationsorgidcategoriescategoryrecommendations-get
   description: This endpoint provides a list of recommendations from a category of
     content from  an organization.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
   humanURL: http://npr.org
-  baseURL: https://api.npr.org////listening/v2/organizations/{orgId}/categories/{category}/recommendations
-  tags: News,Listening, Organizations, Org, Categories, Category, Recommendations
+  baseURL: https://api.npr.org//
+  tags: News, Radio, Getting Started Example, Federal Government, Stack Network, Stack,
+    Mobile, Media, API Provider, Broadcasts, Profiles, Publish, General Data, Relative
+    Data, Service API, Pedestal, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listeningv2organizationsorgidcategoriescategoryrecommendations-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listeningv2organizationsorgidcategoriescategoryrecommendations-get-openapi.md
-- name: NPR
-  x-api-slug: npr
-  description: NPR delivers breaking national and world news. Also top stories from
-    business, politics, health, science, technology, music, arts and culture. Subscribe
-    to podcasts and RSS feeds.
+- name: NPR One API Reference - Get a list of recommendations from a category of content
+    from an organization
+  x-api-slug: listeningv2organizationsorgidcategoriescategoryrecommendations-get
+  description: This endpoint provides a list of recommendations from a category of
+    content from  an organization.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
   humanURL: http://npr.org
   baseURL: https://api.npr.org//
-  tags: Categories
+  tags: News, Radio, Getting Started Example, Federal Government, Stack Network, Stack,
+    Mobile, Media, API Provider, Broadcasts, Profiles, Publish, General Data, Relative
+    Data, Service API, Pedestal, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listeningv2organizationsorgidcategoriescategoryrecommendations-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listeningv2organizationsorgidcategoriescategoryrecommendations-get-openapi.md
+- name: NPR One API Reference - Get a list of recommendations from a category of content
+    from an organization
+  x-api-slug: listeningv2organizationsorgidcategoriescategoryrecommendations-get
+  description: This endpoint provides a list of recommendations from a category of
+    content from  an organization.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg
+  humanURL: http://npr.org
+  baseURL: https://api.npr.org//
+  tags: News, Radio, Getting Started Example, Federal Government, Stack Network, Stack,
+    Mobile, Media, API Provider, Broadcasts, Profiles, Publish, General Data, Relative
+    Data, Service API, Pedestal, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listeningv2organizationsorgidcategoriescategoryrecommendations-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/listeningv2organizationsorgidcategoriescategoryrecommendations-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://nfusion.solutions.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://npr.stack.network
 - type: x-base
   url: http://api.npr.org/
 - type: x-codecademy

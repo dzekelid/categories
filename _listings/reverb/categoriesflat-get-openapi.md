@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Categories Flat
+  title: Reverb Get Categories Flat
   description: Get categories flat.
   termsOfService: https://reverb.com/page/terms
   contact:

@@ -56,6 +56,42 @@ paths:
       - Supported
       - categories
       - CategoryId
+  /1.0/mediaItems/{personId}/@videos/@supportedcategories:
+    get:
+      summary: Get Mediaitems Personid Videos Supported Categories
+      description: Retrieves supported categories.
+      operationId: 1.0.mediaItems.personId._videos._supportedcategories.get
+      x-api-path-slug: 1-0mediaitemspersonidvideossupportedcategories-get
+      parameters:
+      - in: query
+        name: count
+        description: Only returns the nearest multiple of 3 compared to the original
+          value
+      - in: query
+        name: fields
+        description: The following field names are supported
+      - in: query
+        name: format
+        description: Determines the format of the response
+      - in: query
+        name: msPrivacyLevel
+        description: MySpace specific field
+      - in: path
+        name: personId
+        description: The persons identifier
+      - in: query
+        name: startIndex
+        description: Indicates the index of the first item to retrieve from the query
+          set
+      responses:
+        200:
+          description: OK
+      tags:
+      - MediaItems
+      - People
+      - '@videos'
+      - Supported
+      - categories
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

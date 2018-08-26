@@ -44,6 +44,27 @@ paths:
       - Preference
       - Categories
       - Category
+  /users/{user_id}/communication_channels/communication_channel_id/notification_preference_categories:
+    get:
+      summary: List of preference categories
+      description: List of preference categories.
+      operationId: list-of-preference-categories
+      x-api-path-slug: usersuser-idcommunication-channelscommunication-channel-idnotification-preference-categories-get
+      responses:
+        200:
+          description: OK
+      tags:
+      - Users
+      - User
+      - Id
+      - Communication
+      - Channels
+      - Communication
+      - Channel
+      - Id
+      - Notification
+      - Preference
+      - Categories
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -7,53 +7,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetu
 x-kinRank: "9"
 x-alexaRank: "917"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Meetup Categories
-  x-api-slug: meetup
-  description: Returns a list of Meetup group categories
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/categories
-  tags: Events,Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/2categories-get-openapi.md
-- name: Meetup Topic Categories
-  x-api-slug: meetup
-  description: Returns a list of Meetup topic categories
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////2/topic_categories
-  tags: Events,Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/2topic-categories-get-openapi.md
-- name: Meetup Topic Categories
-  x-api-slug: meetup
-  description: Returns a list high level topic categories
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https://api.meetup.com////find/topic_categories
-  tags: Events,Search,Topic Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/findtopic-categories-get-openapi.md
-- name: Meetup
-  x-api-slug: meetup
-  description: Find Meetups so you can do more of what matters to you. Or create your
-    own group and meet people near you who share your interests.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg
-  humanURL: http://meetup.com
-  baseURL: https://api.meetup.com//
-  tags: Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://medium.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://meetup.stack.network
 - type: x-base
   url: http://api.meetup.com
 - type: x-crunchbase

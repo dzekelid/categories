@@ -153,6 +153,31 @@ paths:
       - Category
       - Id
       - Groups
+  /group_categories/{group_category_id}/users:
+    get:
+      summary: List users in group category
+      description: List users in group category.
+      operationId: list-users-in-group-category
+      x-api-path-slug: group-categoriesgroup-category-idusers-get
+      parameters:
+      - in: query
+        name: search_term
+        description: The partial name or full ID of the users to match and return
+          in the resultsnlist
+      - in: query
+        name: unassigned
+        description: Set this value to true if you wish only to search unassigned
+          users in thengroup category
+      responses:
+        200:
+          description: OK
+      tags:
+      - Group
+      - Categories
+      - Group
+      - Category
+      - Id
+      - Users
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

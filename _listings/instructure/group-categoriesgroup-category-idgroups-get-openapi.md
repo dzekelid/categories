@@ -121,6 +121,63 @@ paths:
       - Category
       - Id
       - Groups
+    post:
+      summary: Create a group
+      description: Create a group.
+      operationId: create-a-group
+      x-api-path-slug: group-categoriesgroup-category-idgroups-post
+      parameters:
+      - in: query
+        name: description
+        description: A description of the group
+      - in: query
+        name: is_public
+        description: whether the group is public (applies only to community groups)
+      - in: query
+        name: join_level
+        description: 'no descriptionnn        n        n          Allowed values:
+          parent_context_auto_join, parent_context_request, invitation_only'
+      - in: query
+        name: name
+        description: The name of the group
+      - in: query
+        name: storage_quota_mb
+        description: The allowed file storage for the group, in megabytes
+      responses:
+        200:
+          description: OK
+      tags:
+      - Group
+      - Categories
+      - Group
+      - Category
+      - Id
+      - Groups
+  /group_categories/{group_category_id}/users:
+    get:
+      summary: List users in group category
+      description: List users in group category.
+      operationId: list-users-in-group-category
+      x-api-path-slug: group-categoriesgroup-category-idusers-get
+      parameters:
+      - in: query
+        name: search_term
+        description: The partial name or full ID of the users to match and return
+          in the resultsnlist
+      - in: query
+        name: unassigned
+        description: Set this value to true if you wish only to search unassigned
+          users in thengroup category
+      responses:
+        200:
+          description: OK
+      tags:
+      - Group
+      - Categories
+      - Group
+      - Category
+      - Id
+      - Users
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

@@ -6,113 +6,16 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumro
 x-kinRank: "8"
 x-alexaRank: "4658"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Gumroad Get Products Variant Categories
-  x-api-slug: gumroad
-  description: Retrieve all of the existing variant categories of a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories
-  tags: Products,Variant,Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categories-get-openapi.md
-- name: Gumroad Post Products Variant Categories
-  x-api-slug: gumroad
-  description: Create a new variant category on a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories
-  tags: Products,Variant,Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categories-post-openapi.md
-- name: Gumroad Delete Products Variant Categories
-  x-api-slug: gumroad
-  description: Permanently delete a variant category of a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories/:id
-  tags: Products,Variant,Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categoriesid-delete-openapi.md
-- name: Gumroad Get Products Variant Categories
-  x-api-slug: gumroad
-  description: Retrieve the details of a variant category of a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories/:id
-  tags: Products,Variant,Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categoriesid-get-openapi.md
-- name: Gumroad Put Products Variant Categories
-  x-api-slug: gumroad
-  description: Edit a variant category of an existing product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories/:id
-  tags: Products,Variant,Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categoriesid-put-openapi.md
-- name: Gumroad Post Products Variant Categories Variant Category Variants
-  x-api-slug: gumroad
-  description: Create a new variant of a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories/:variant_category_id/variants
-  tags: Products,Variant,Categories,:variant,Category,Variants
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categoriesvariant-category-idvariants-post-openapi.md
-- name: Gumroad Delete Products Variant Categories Variant Category Variants
-  x-api-slug: gumroad
-  description: Permanently delete a variant of a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories/:variant_category_id/variants/:id
-  tags: Products,Variant,Categories,:variant,Category,Variants
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categoriesvariant-category-idvariantsid-delete-openapi.md
-- name: Gumroad Get Products Variant Categories Variant Category Variants
-  x-api-slug: gumroad
-  description: Retrieve the details of a variant of a product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories/:variant_category_id/variants/:id
-  tags: Products,Variant,Categories,:variant,Category,Variants
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categoriesvariant-category-idvariantsid-get-openapi.md
-- name: Gumroad Put Products Variant Categories Variant Category Variants
-  x-api-slug: gumroad
-  description: Edit a variant of an existing product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2//products/:product_id/variant_categories/:variant_category_id/variants/:id
-  tags: Products,Variant,Categories,:variant,Category,Variants
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/productsproduct-idvariant-categoriesvariant-category-idvariantsid-put-openapi.md
-- name: Gumroad
-  x-api-slug: gumroad
-  description: Share and sell exclusive videos directly to your followers. Selling
-    stuff has always been a pain. No longer! Get back to creating.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg
-  humanURL: http://gumroad.com
-  baseURL: https://api.gumroad.com//v2
-  tags: Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://gsa.per.diem.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://gumroad.stack.network
 - type: x-application-management
   url: https://gumroad.com/settings/developer
 - type: x-base

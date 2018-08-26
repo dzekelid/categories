@@ -3,32 +3,15 @@ swagger: "2.0"
 x-collection-name: OpenRouteService
 x-complete: 1
 info:
-  title: AP Breaking News API
-  description: ap-breaking-news-api-allows-your-organization-to-retrieve-a-list-of-available-breaking-news-categories-and-then-request-content-for-a-specific-category-
-  version: v2
-host: developerapi.ap.org
-basePath: v2/
+  title: AP Metadata Services
+  description: add-value-to-your-news-content-with-apu2019s-industryleading-metadata--accurate-comprehensive-richly-detailed-data-designed-specifically-for-use-by-news-publishers--ap-metadata-services-is-a-new-set-of-apis-that-gives-you-direct-access-to-the-same-metadata-system-that-supports-apu2019s-awardwinning-global-news-operation-
+  version: v1
+host: cv.ap.org
+basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
-paths:
-  categories.svc/:
-    get:
-      summary: Categories
-      description: Returns a list of available AP Breaking News categories, including
-        category IDs.
-      operationId: getCategories.svc
-      x-api-path-slug: categories-svc-get
-      parameters:
-      - in: query
-        name: apiKey
-        description: API Key
-      responses:
-        200:
-          description: OK
-      tags:
-      - Categories
 ---

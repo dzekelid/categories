@@ -8,60 +8,55 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Digital River Shopper API Get Shoppers Me Categories
-  x-api-slug: digital-river-shopper-api
+- name: Digital River Shopper API - Get Shoppers Me Categories
+  x-api-slug: v1shoppersmecategories-get
   description: Get shoppers me categories.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}//v1/shoppers/me/categories
-  tags: Shoppers,Me,Categories
+  baseURL: https://store.digitalriver.com//store/{mysite}
+  tags: Commerce, Commerce, Products, Stack Network, API Service Provider, Products,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/v1shoppersmecategories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/v1shoppersmecategories-get-openapi.md
-- name: Digital River Shopper API Get Shoppers Me Categories
-  x-api-slug: digital-river-shopper-api
+- name: Digital River Shopper API - Get Shoppers Me Categories
+  x-api-slug: v1shoppersmecategoriesid-get
   description: Get shoppers me categories.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}//v1/shoppers/me/categories/{id}
-  tags: Shoppers,Me,Categories
+  baseURL: https://store.digitalriver.com//store/{mysite}
+  tags: Commerce, Commerce, Products, Stack Network, API Service Provider, Products,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/v1shoppersmecategoriesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/v1shoppersmecategoriesid-get-openapi.md
-- name: Digital River Shopper API Get Shoppers Me Categories Products
-  x-api-slug: digital-river-shopper-api
+- name: Digital River Shopper API - Get Shoppers Me Categories Products
+  x-api-slug: v1shoppersmecategoriesidproducts-get
   description: Get shoppers me categories products.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}//v1/shoppers/me/categories/{id}/products
-  tags: Shoppers,Me,Categories,Products
+  baseURL: https://store.digitalriver.com//store/{mysite}
+  tags: Commerce, Commerce, Products, Stack Network, API Service Provider, Products,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/v1shoppersmecategoriesidproducts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/v1shoppersmecategoriesidproducts-get-openapi.md
-- name: Digital River Shopper API
-  x-api-slug: digital-river-shopper-api
-  description: Digital Riveris a public company that provides global ecommerce, payments
-    and marketing services. In 2013, Digital River processed more than $30 billion
-    in online transactions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
-  humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}
-  tags: Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://dezrez.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://digital.river.stack.network
 - type: x-blog
   url: https://developers.digitalriver.com/blog
 - type: x-blog-rss

@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get Csps Categories
+  title: Reverb Get Csps Categories
   description: Get csps categories.
   termsOfService: https://reverb.com/page/terms
   contact:

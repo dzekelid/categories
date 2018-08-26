@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Delete My Follows Categories Entifier
+  title: Reverb Delete My Follows Categories Entifier
   description: Delete my follows categories entifier.
   termsOfService: https://reverb.com/page/terms
   contact:

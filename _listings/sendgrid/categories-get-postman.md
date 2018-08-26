@@ -2,7 +2,7 @@
   "info": {
     "name": "SendGrid Get Categories",
     "_postman_id": "745ff1fc-fc78-4f88-8fb7-208918b7920b",
-    "description": "**This endpoint allows you to retrieve a list of all of your categories.**\n\nCategories can help organize your email analytics by enabling you to “tag” emails by type or broad topic. You can define your own custom categories. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).",
+    "description": "**This endpoint allows you to retrieve a list of all of your categories.**\n\nCategories can help organize your email analytics by enabling you to ???tag??? emails by type or broad topic. You can define your own custom categories. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/"
   },
   "item": [

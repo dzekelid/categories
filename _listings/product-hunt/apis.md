@@ -8,38 +8,32 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11269-prod
 x-kinRank: "7"
 x-alexaRank: "4019"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/product-hunt/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Product Hunt Get Categories
-  x-api-slug: product-hunt
+- name: Product Hunt - Get Categories
+  x-api-slug: categoriescategoryposts-get
   description: Get categories.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11269-product-hunt.jpg
   humanURL: http://producthunt.com
-  baseURL: https://api.producthunt.com//v1//categories/{category}/posts
-  tags: Categories
+  baseURL: https://api.producthunt.com//v1
+  tags: Discovery, Curation, Startups, Products, Evangelism, Media, internet, Technology,
+    Mobile, Applications, General Data, Relative Data, Service API, Relative StreamRank,
+    Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/product-hunt/categoriescategoryposts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/product-hunt/categoriescategoryposts-get-openapi.md
-- name: Product Hunt
-  x-api-slug: product-hunt
-  description: Product Hunt is a curation of the best new products, every day. Discover
-    the latest mobile apps, websites, and technology products that everyones talking
-    about.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11269-product-hunt.jpg
-  humanURL: http://producthunt.com
-  baseURL: https://api.producthunt.com//v1
-  tags: Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/product-hunt/openapi.md
 x-common:
 - type: x-api-json--authoritative
   url: https://raw.githubusercontent.com/producthunt/producthunt-api/master/manifests/v1/apis.json
+- type: x-api-gallery
+  url: http://procore.technologies.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://product.hunt.stack.network
 - type: x-blog
   url: https://stories.producthunt.com/
 - type: x-blog-rss

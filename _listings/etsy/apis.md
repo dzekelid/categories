@@ -6,88 +6,18 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.j
 x-kinRank: "9"
 x-alexaRank: "187"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Etsy Get Categories Tag
-  x-api-slug: etsy
-  description: Retrieves a top-level Category by tag.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///categories/{tag}
-  tags: Categories,Tag
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/categoriestag-get-openapi.md
-- name: Etsy Get Categories Tag Subtag
-  x-api-slug: etsy
-  description: Retrieves a second-level Category by tag and subtag.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///categories/{tag}/{subtag}
-  tags: Categories,Tag,Subtag
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/categoriestagsubtag-get-openapi.md
-- name: Etsy Get Categories Tag Subtag Subsubtag
-  x-api-slug: etsy
-  description: Retrieves a third-level Category by tag, subtag and subsubtag.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///categories/{tag}/{subtag}/{subsubtag}
-  tags: Categories,Tag,Subtag,Subsubtag
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/categoriestagsubtagsubsubtag-get-openapi.md
-- name: Etsy Get Taxonomy Categories
-  x-api-slug: etsy
-  description: Retrieves all top-level Categories.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///taxonomy/categories
-  tags: Taxonomy,Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/taxonomycategories-get-openapi.md
-- name: Etsy Get Taxonomy Categories Tag
-  x-api-slug: etsy
-  description: Retrieves children of a top-level Category by tag.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///taxonomy/categories/{tag}
-  tags: Taxonomy,Categories,Tag
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/taxonomycategoriestag-get-openapi.md
-- name: Etsy Get Taxonomy Categories Tag Subtag
-  x-api-slug: etsy
-  description: Retrieves children of a second-level Category by tag and subtag.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private///taxonomy/categories/{tag}/{subtag}
-  tags: Taxonomy,Categories,Tag,Subtag
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/taxonomycategoriestagsubtag-get-openapi.md
-- name: Etsy
-  x-api-slug: etsy
-  description: Etsy is a handmade marketplace. The Etsy API lets developers tap into
-    the Etsy community, building their own Etsy-powered applications for the web,
-    desktop and mobile devices. Applications built on the API will connect buyers
-    with sellers, promote the handmade lifestyle, and support the craftspeople who
-    sell on Etsy.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg
-  humanURL: http://www.etsy.com/
-  baseURL: https://openapi.etsy.com//v2/private/
-  tags: Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/etsy.json
+- type: x-api-gallery
+  url: http://esme.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://etsy.stack.network
 - type: x-application-gallery
   url: https://www.etsy.com/apps/
 - type: x-base

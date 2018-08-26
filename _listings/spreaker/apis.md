@@ -7,36 +7,57 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Spreaker API Get Categories
-  x-api-slug: spreaker-api
+- name: Spreaker API - Get Categories
+  x-api-slug: categoriesflat-get
   description: Retrieves all categories in Spreaker
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
-  baseURL: http://api.spreaker.com////categories/flat
-  tags: Categories
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/categoriesflat-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/categoriesflat-get-openapi.md
-- name: Spreaker API
-  x-api-slug: spreaker-api
-  description: Spreaker platform enables you to host and listen thousands of radio
-    shows. Spreaker provides a REST web service that enables developers to read and
-    write data to Spreaker.
+- name: Spreaker API - Explore Category Items
+  x-api-slug: explorecategory-id-get
+  description: 'This API returns information and items of a specific category. The
+    response contains two properties at root level:'
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
   humanURL: http://spreaker.com
   baseURL: http://api.spreaker.com//
-  tags: Categories
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/explorecategory-id-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/explorecategory-id-get-openapi.md
+- name: Spreaker API - Explore Category Items
+  x-api-slug: explorecategory-id-get
+  description: 'This API returns information and items of a specific category. The
+    response contains two properties at root level:'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/explorecategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/explorecategory-id-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://spotify.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://spreaker.stack.network
 - type: x-base
   url: http://api.spreaker.com/
 - type: x-blog

@@ -7,28 +7,29 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgr
 x-kinRank: "9"
 x-alexaRank: "10000"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
-- name: SendGrid Get Categories
-  x-api-slug: sendgrid
-  description: "**This endpoint allows you to retrieve a list of all of your categories.**\n\nCategories
-    can help organize your email analytics by enabling you to \u201Ctag\u201D emails
-    by type or broad topic. You can define your own custom categories. For more information,
-    please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html)."
+- name: SendGrid - Get Categories
+  x-api-slug: categories-get
+  description: |-
+    **This endpoint allows you to retrieve a list of all of your categories.**
+
+    Categories can help organize your email analytics by enabling you to ???tag??? emails by type or broad topic. You can define your own custom categories. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//categories
-  tags: Email,Categories
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categories-get-openapi.md
-- name: SendGrid Get Categories Stats
-  x-api-slug: sendgrid
+- name: SendGrid - Get Categories Stats
+  x-api-slug: categoriesstats-get
   description: |-
     **This endpoint allows you to retrieve all of your email statistics for each of your categories.**
 
@@ -37,15 +38,16 @@ apis:
     Categories allow you to group your emails together according to broad topics that you define. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//categories/stats
-  tags: Email,Categories, Stats
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categoriesstats-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categoriesstats-get-openapi.md
-- name: SendGrid Get Categories Stats Sums
-  x-api-slug: sendgrid
+- name: SendGrid - Get Categories Stats Sums
+  x-api-slug: categoriesstatssums-get
   description: |-
     **This endpoint allows you to retrieve the total sum of each email statistic for every category over the given date range.**
 
@@ -54,29 +56,21 @@ apis:
     Categories allow you to group your emails together according to broad topics that you define. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
   humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3//categories/stats/sums
-  tags: Email,Categories, Stats, Sums
+  baseURL: https://api.sendgrid.com//v3
+  tags: API LIfeyclessss, Imports, Stack Network, Stack, Technology, SaaS, Emails,
+    Emails, Messages, Messages, Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categoriesstatssums-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/categoriesstatssums-get-openapi.md
-- name: SendGrid
-  x-api-slug: sendgrid
-  description: SendGrids cloud-based email infrastructure relieves businesses of the
-    cost and complexity of maintaining custom email systems. SendGrid provides reliable
-    delivery, scalability and real-time analytics along with flexible APIs that make
-    custom integration a breeze.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg
-  humanURL: http://sendgrid.com
-  baseURL: https://api.sendgrid.com//v3
-  tags: Categories
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x--net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html
+- type: x-api-gallery
+  url: http://school.digger.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://sendgrid.stack.network
 - type: x-base
   url: https://api.sendgrid.com
 - type: x-blog

@@ -4,10 +4,10 @@ x-collection-name: SendGrid
 x-complete: 0
 info:
   title: SendGrid Get Categories
-  description: "**This endpoint allows you to retrieve a list of all of your categories.**\n\nCategories
-    can help organize your email analytics by enabling you to \u201Ctag\u201D emails
-    by type or broad topic. You can define your own custom categories. For more information,
-    please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html)."
+  description: |-
+    **This endpoint allows you to retrieve a list of all of your categories.**
+
+    Categories can help organize your email analytics by enabling you to ???tag??? emails by type or broad topic. You can define your own custom categories. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
   version: 1.0.0
 host: api.sendgrid.com
 basePath: /v3
@@ -21,10 +21,10 @@ paths:
   /categories:
     get:
       summary: Get Categories
-      description: "**This endpoint allows you to retrieve a list of all of your categories.**\n\nCategories
-        can help organize your email analytics by enabling you to \u201Ctag\u201D
-        emails by type or broad topic. You can define your own custom categories.
-        For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html)."
+      description: |-
+        **This endpoint allows you to retrieve a list of all of your categories.**
+
+        Categories can help organize your email analytics by enabling you to ???tag??? emails by type or broad topic. You can define your own custom categories. For more information, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/categories.html).
       operationId: GET_categories
       x-api-path-slug: categories-get
       parameters:

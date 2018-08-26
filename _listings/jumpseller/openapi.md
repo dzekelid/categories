@@ -274,4 +274,47 @@ paths:
       - Id
       - Customers
       - Json
+  /products/category/{category_id}.json:
+    get:
+      summary: Get Products Category Category
+      description: ""
+      operationId: getProductsCategoryCategory.json
+      x-api-path-slug: productscategorycategory-id-json-get
+      parameters:
+      - in: path
+        name: category_id
+        description: Category ID of the Product used as filter
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Products
+      - Category
+      - Category
+      - Id
+      - Json
+  /products/category/{category_id}/count.json:
+    get:
+      summary: Get Products Category Category Count
+      description: ""
+      operationId: getProductsCategoryCategoryCount.json
+      x-api-path-slug: productscategorycategory-idcount-json-get
+      parameters:
+      - in: path
+        name: category_id
+        description: Category ID of the Product used as filter
+      - in: query
+        name: No Name
+      responses:
+        200:
+          description: OK
+      tags:
+      - Products
+      - Category
+      - Category
+      - Id
+      - Count
+      - Json
 ---

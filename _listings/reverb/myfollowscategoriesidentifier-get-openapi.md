@@ -3,7 +3,7 @@ swagger: "2.0"
 x-collection-name: Reverb
 x-complete: 0
 info:
-  title: reverb Get My Follows Categories Entifier
+  title: Reverb Get My Follows Categories Entifier
   description: Get my follows categories entifier.
   termsOfService: https://reverb.com/page/terms
   contact:

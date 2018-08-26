@@ -7,35 +7,204 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscr
 x-kinRank: "7"
 x-alexaRank: "91598"
 tags: Categories
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/apis.md
 specificationVersion: "0.14"
 apis:
-- name: News Cred Categories
-  x-api-slug: news-cred
+- name: News Cred - Categories
+  x-api-slug: categories-get
   description: Search for categories
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
-  baseURL: https://api.newscred.com///categories/
-  tags: News,Categories
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categories-get-openapi.md
-- name: News Cred
-  x-api-slug: news-cred
-  description: NewsCred is the leading enterprise content marketing company. NewsCred
-    delivers content marketing solutions that drive business results for top brands
+- name: News Cred - Category Sources
+  x-api-slug: categorydashednamesources-get
+  description: Gets a list of sources that write most frequently about the category
+    specified by the dashed name
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
   humanURL: http://newscred.com
   baseURL: https://api.newscred.com//
-  tags: Categories
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednamesources-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednamesources-get-openapi.md
+- name: News Cred - Category Topics
+  x-api-slug: categorydashednametopics-get
+  description: Gets a list of topics within the category specified by the dashed name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednametopics-get-openapi.md
+- name: News Cred - Category Stories
+  x-api-slug: categorycategorynamestories-get
+  description: Find the top news stories related to a given category. A story is a
+    collection of similar articles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+- name: News Cred - Category Articles
+  x-api-slug: categorydashednamearticles-get
+  description: Search for articles within the category specified by dashed name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednamearticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednamearticles-get-openapi.md
+- name: News Cred - Category Images
+  x-api-slug: categorydashednameimages-get
+  description: Gets images related to the specified category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednameimages-get-openapi.md
+- name: News Cred - Category Stories
+  x-api-slug: categorycategorynamestories-get
+  description: Find the top news stories related to a given category. A story is a
+    collection of similar articles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+- name: News Cred - Category Sources
+  x-api-slug: categorydashednamesources-get
+  description: Gets a list of sources that write most frequently about the category
+    specified by the dashed name
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednamesources-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednamesources-get-openapi.md
+- name: News Cred - Category Topics
+  x-api-slug: categorydashednametopics-get
+  description: Gets a list of topics within the category specified by the dashed name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednametopics-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednametopics-get-openapi.md
+- name: News Cred - Category Stories
+  x-api-slug: categorycategorynamestories-get
+  description: Find the top news stories related to a given category. A story is a
+    collection of similar articles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorycategorynamestories-get-openapi.md
+- name: News Cred - Category Articles
+  x-api-slug: categorydashednamearticles-get
+  description: Search for articles within the category specified by dashed name.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednamearticles-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednamearticles-get-openapi.md
+- name: News Cred - Category Images
+  x-api-slug: categorydashednameimages-get
+  description: Gets images related to the specified category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednameimages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorydashednameimages-get-openapi.md
+- name: News Cred - Category Stories
+  x-api-slug: categorycategorynamestories-get
+  description: Find the top news stories related to a given category. A story is a
+    collection of similar articles.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg
+  humanURL: http://newscred.com
+  baseURL: https://api.newscred.com//
+  tags: News syndication service, News, Syndication, Articles, News, News API, API
+    LIfeyclessss, SaaS, Enterprise, Technology, API Provider, Profiles, General Data,
+    Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorycategorynamestories-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/categorycategorynamestories-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://news.api.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://newscred.stack.network
 - type: x-base
   url: http://api.newscred.com
 - type: x-blog
