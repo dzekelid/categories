@@ -7,11 +7,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-news
 x-kinRank: "8"
 x-alexaRank: "97323"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newswhip/apis.md
 specificationVersion: "0.14"
 apis:
+- name: News Whip API - Region
+  x-api-slug: regionregioncategorytime-period-get
+  description: Search news by region
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg
+  humanURL: https://www.newswhip.com/
+  baseURL: https://api.newswhip.com/v1/
+  tags: News, News, News API, Target, Stack Network, SaaS, Technology, internet, Mobile,
+    API Provider, Profiles, Publish, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newswhip/regionregioncategorytime-period-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newswhip/regionregioncategorytime-period-get-openapi.md
 - name: News Whip API - Region
   x-api-slug: regionregioncategorytime-period-get
   description: Search news by region

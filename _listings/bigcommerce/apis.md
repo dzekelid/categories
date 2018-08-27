@@ -12,11 +12,321 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: BigCommerce API V3 - Retrieve categories
+  x-api-slug: store-hashv3catalogcategories-get
+  description: Returns a paginated categories collection from the BigCommerce Catalog
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-get-openapi.md
+- name: BigCommerce API V3 - Delete a category or categories
+  x-api-slug: store-hashv3catalogcategories-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-delete-openapi.md
+- name: BigCommerce API V3 - Retrieve a single category
+  x-api-slug: store-hashv3catalogcategoriesid-get
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-get-openapi.md
+- name: BigCommerce API V3 - Update a category
+  x-api-slug: store-hashv3catalogcategoriesid-put
+  description: Update a `Category` in the BigCommerce Catalog
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-put-openapi.md
+- name: BigCommerce API V3 - Delete a single category
+  x-api-slug: store-hashv3catalogcategoriesid-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-delete-openapi.md
+- name: BigCommerce API V3 - Create an image for a category
+  x-api-slug: store-hashv3catalogcategoriesidimage-post
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesidimage-post-openapi.md
+- name: BigCommerce API V3 - Delete a category image
+  x-api-slug: store-hashv3catalogcategoriesidimage-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesidimage-delete-openapi.md
+- name: BigCommerce API V3 - Create a new category
+  x-api-slug: store-hashv3catalogcategories-post
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-post-openapi.md
+- name: BigCommerce API V3 - Delete a category or categories
+  x-api-slug: store-hashv3catalogcategories-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-delete-openapi.md
+- name: BigCommerce API V3 - Retrieve category structure/tree
+  x-api-slug: store-hashv3catalogcategoriestree-get
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriestree-get-openapi.md
+- name: BigCommerce API V3 - Retrieve a single category
+  x-api-slug: store-hashv3catalogcategoriesid-get
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-get-openapi.md
+- name: BigCommerce API V3 - Update a category
+  x-api-slug: store-hashv3catalogcategoriesid-put
+  description: Update a `Category` in the BigCommerce Catalog
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-put-openapi.md
+- name: BigCommerce API V3 - Delete a single category
+  x-api-slug: store-hashv3catalogcategoriesid-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-delete-openapi.md
+- name: BigCommerce API V3 - Create an image for a category
+  x-api-slug: store-hashv3catalogcategoriesidimage-post
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesidimage-post-openapi.md
+- name: BigCommerce API V3 - Delete a category image
+  x-api-slug: store-hashv3catalogcategoriesidimage-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesidimage-delete-openapi.md
+- name: BigCommerce API V3 - Create a new category
+  x-api-slug: store-hashv3catalogcategories-post
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-post-openapi.md
+- name: BigCommerce API V3 - Delete a category or categories
+  x-api-slug: store-hashv3catalogcategories-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-delete-openapi.md
+- name: BigCommerce API V3 - Retrieve category structure/tree
+  x-api-slug: store-hashv3catalogcategoriestree-get
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriestree-get-openapi.md
+- name: BigCommerce API V3 - Retrieve category structure/tree
+  x-api-slug: store-hashv3catalogcategoriestree-get
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriestree-get-openapi.md
+- name: BigCommerce API V3 - Delete a category or categories
+  x-api-slug: store-hashv3catalogcategories-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-delete-openapi.md
+- name: BigCommerce API V3 - Create a new category
+  x-api-slug: store-hashv3catalogcategories-post
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-post-openapi.md
+- name: BigCommerce API V3 - Create a new category
+  x-api-slug: store-hashv3catalogcategories-post
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategories-post-openapi.md
+- name: BigCommerce API V3 - Delete a category image
+  x-api-slug: store-hashv3catalogcategoriesidimage-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesidimage-delete-openapi.md
+- name: BigCommerce API V3 - Delete a category image
+  x-api-slug: store-hashv3catalogcategoriesidimage-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesidimage-delete-openapi.md
+- name: BigCommerce API V3 - Create an image for a category
+  x-api-slug: store-hashv3catalogcategoriesidimage-post
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesidimage-post-openapi.md
+- name: BigCommerce API V3 - Create an image for a category
+  x-api-slug: store-hashv3catalogcategoriesidimage-post
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesidimage-post-openapi.md
+- name: BigCommerce API V3 - Delete a single category
+  x-api-slug: store-hashv3catalogcategoriesid-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-delete-openapi.md
+- name: BigCommerce API V3 - Delete a single category
+  x-api-slug: store-hashv3catalogcategoriesid-delete
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-delete-openapi.md
+- name: BigCommerce API V3 - Update a category
+  x-api-slug: store-hashv3catalogcategoriesid-put
+  description: Update a `Category` in the BigCommerce Catalog
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-put-openapi.md
+- name: BigCommerce API V3 - Update a category
+  x-api-slug: store-hashv3catalogcategoriesid-put
+  description: Update a `Category` in the BigCommerce Catalog
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-put-openapi.md
+- name: BigCommerce API V3 - Retrieve a single category
+  x-api-slug: store-hashv3catalogcategoriesid-get
+  description: ""
+  image: ""
+  humanURL: http://bigcommerce.com
+  baseURL: https://api.bigcommerce.com//stores
+  tags: Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/store-hashv3catalogcategoriesid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://betterdoctor.api.gallery.streamdata.io

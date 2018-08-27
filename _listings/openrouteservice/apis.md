@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openro
 x-kinRank: "7"
 x-alexaRank: "6266"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/openrouteservice/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,21 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/openrouteservice/categories-svc-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/openrouteservice/categories-svc-get-openapi.md
+- name: AP Breaking News API - Category News
+  x-api-slug: categories-svccategoryid-get
+  description: Returns the latest content for a specific category. Depending on the
+    specified parameters, returns  either the full story for each headline and/or
+    the headlines linked to web pages with the full stories.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openrouteservice.jpg
+  humanURL: http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22
+  baseURL: https://developerapi.ap.org/v2/
+  tags: Bicycle, Routes, Directions, Technology, SaaS, Routes, Routes, General Data,
+    Relative Data, Service API, Locations, Maps
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/openrouteservice/categories-svccategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/openrouteservice/categories-svccategoryid-get-openapi.md
 - name: AP Breaking News API - Category News
   x-api-slug: categories-svccategoryid-get
   description: Returns the latest content for a specific category. Depending on the

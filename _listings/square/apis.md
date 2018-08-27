@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-squar
 x-kinRank: "9"
 x-alexaRank: "2433"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,114 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategories-get-openapi.md
+- name: Square Connect - Creates an item category.
+  x-api-slug: v1location-idcategories-post
+  description: Creates an item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategories-post-openapi.md
+- name: Square Connect - Deletes an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-delete
+  description: Deletes an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategoriescategory-id-delete-openapi.md
+- name: Square Connect - Modifies the details of an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-put
+  description: Modifies the details of an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategoriescategory-id-put-openapi.md
+- name: Square Connect - Creates an item category.
+  x-api-slug: v1location-idcategories-post
+  description: Creates an item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategories-post-openapi.md
+- name: Square Connect - Deletes an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-delete
+  description: Deletes an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategoriescategory-id-delete-openapi.md
+- name: Square Connect - Modifies the details of an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-put
+  description: Modifies the details of an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategoriescategory-id-put-openapi.md
+- name: Square Connect - Modifies the details of an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-put
+  description: Modifies the details of an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategoriescategory-id-put-openapi.md
+- name: Square Connect - Deletes an existing item category.
+  x-api-slug: v1location-idcategoriescategory-id-delete
+  description: Deletes an existing item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategoriescategory-id-delete-openapi.md
+- name: Square Connect - Creates an item category.
+  x-api-slug: v1location-idcategories-post
+  description: Creates an item category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg
+  humanURL: http://square.com
+  baseURL: https://connect.squareup.com//
+  tags: Payments, Credit Cards, Commerce, Stack Network, Financial Services, Mobile,
+    Technology, internet, Payments, Relative Data, Service API, Relative StreamRank,
+    Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/v1location-idcategories-post-openapi.md
 x-common:
 - type: x-website
   url: http://square.com

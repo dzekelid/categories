@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instru
 x-kinRank: "8"
 x-alexaRank: "367"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/apis.md
 specificationVersion: "0.14"
 apis:
@@ -311,6 +311,97 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idusers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idusers-get-openapi.md
+- name: Instructure Canvas Groups API - List users in group category
+  x-api-slug: group-categoriesgroup-category-idusers-get
+  description: List users in group category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idusers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idusers-get-openapi.md
+- name: Instructure Canvas Groups API - Create a group
+  x-api-slug: group-categoriesgroup-category-idgroups-post
+  description: Create a group.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idgroups-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idgroups-post-openapi.md
+- name: Instructure Canvas Groups API - List groups in group category
+  x-api-slug: group-categoriesgroup-category-idgroups-get
+  description: List groups in group category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idgroups-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idgroups-get-openapi.md
+- name: Instructure Canvas Groups API - Assign unassigned members
+  x-api-slug: group-categoriesgroup-category-idassign-unassigned-members-post
+  description: Assign unassigned members.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idassign-unassigned-members-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-idassign-unassigned-members-post-openapi.md
+- name: Instructure Canvas Groups API - Update a Group Category
+  x-api-slug: group-categoriesgroup-category-id-put
+  description: Update a group category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-id-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-id-put-openapi.md
+- name: Instructure Canvas Groups API - Get a single group category
+  x-api-slug: group-categoriesgroup-category-id-get
+  description: Get a single group category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-id-get-openapi.md
+- name: Instructure Canvas Groups API - Delete a Group Category
+  x-api-slug: group-categoriesgroup-category-id-delete
+  description: Delete a group category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-id-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/group-categoriesgroup-category-id-delete-openapi.md
 - name: Instructure Canvas Users API - Update preferences by category
   x-api-slug: usersselfcommunication-channelscommunication-channel-idnotification-preference-categoriescategory-put
   description: Update preferences by category.
@@ -337,6 +428,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/usersuser-idcommunication-channelscommunication-channel-idnotification-preference-categories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/usersuser-idcommunication-channelscommunication-channel-idnotification-preference-categories-get-openapi.md
+- name: Instructure Canvas Users API - Update preferences by category
+  x-api-slug: usersselfcommunication-channelscommunication-channel-idnotification-preference-categoriescategory-put
+  description: Update preferences by category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg
+  humanURL: http://instructure.com
+  baseURL: https://canvas.instructure.com//api/v1
+  tags: Education, LMS, Indie EdTech Data Jam, Stack Network, SaaS, Technology, Enterprise,
+    API Provider, Profiles, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/usersselfcommunication-channelscommunication-channel-idnotification-preference-categoriescategory-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/usersselfcommunication-channelscommunication-channel-idnotification-preference-categoriescategory-put-openapi.md
 - name: Instructure Canvas Users API - Update preferences by category
   x-api-slug: usersselfcommunication-channelscommunication-channel-idnotification-preference-categoriescategory-put
   description: Update preferences by category.

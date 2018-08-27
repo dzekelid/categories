@@ -12,11 +12,371 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "164081"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-get
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategories-get-openapi.md
+- name: Official Akeneo PIM API - asset categories (2.1 only)
+  x-api-slug: restv1assetcategories-patch
+  description: Asset categories (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategories-patch-openapi.md
+- name: Official Akeneo PIM API - categories
+  x-api-slug: restv1categories-get
+  description: Categories.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categories-get-openapi.md
+- name: Official Akeneo PIM API - categories
+  x-api-slug: restv1categories-patch
+  description: Categories.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categories-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesmaster-get
+  description: Assuming that the given code is the code of an existing category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesmaster-get-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categories-post
+  description: Assuming that there is no "new_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categories-post-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesaudio-video-patch
+  description: Category.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesaudio-video-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesmaster-get
+  description: Assuming that the given code is the code of an existing category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesmaster-get-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categories-post
+  description: Assuming that there is no "new_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categories-post-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesaudio-video-patch
+  description: Category.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesaudio-video-patch-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesaudio-video-patch
+  description: Category.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesaudio-video-patch-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesaudio-video-patch
+  description: Category.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesaudio-video-patch-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesaudio-video-patch
+  description: Category.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesaudio-video-patch-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesaudio-video-patch
+  description: Category.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesaudio-video-patch-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categories-post
+  description: Assuming that there is no "new_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categories-post-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categories-post
+  description: Assuming that there is no "new_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categories-post-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categories-post
+  description: Assuming that there is no "new_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categories-post-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesmaster-get
+  description: Assuming that the given code is the code of an existing category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesmaster-get-openapi.md
+- name: Official Akeneo PIM API - category
+  x-api-slug: restv1categoriesmaster-get
+  description: Assuming that the given code is the code of an existing category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1categoriesmaster-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesnew-asset-category-patch
+  description: Asset category (2.1 only).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesnew-asset-category-patch-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategories-post
+  description: Assuming that there is no "new_asset_category" already existing
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategories-post-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
+- name: Official Akeneo PIM API - asset category (2.1 only)
+  x-api-slug: restv1assetcategoriesasset-main-catalog-get
+  description: Assuming that the given code is the code of an existing asset category
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png
+  humanURL: https://akeneo.com
+  baseURL: https://example.com//api
+  tags: Technology, SaaS, Enterprise, Products, Commerce, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/restv1assetcategoriesasset-main-catalog-get-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://www.akeneo.com/feed/

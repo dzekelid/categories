@@ -7,11 +7,39 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-natio
 x-kinRank: "7"
 x-alexaRank: "31023"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/national-renewable-energy-laboratory/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Transportation Laws and Incentives - Return the law categories for a given
+    category type.
+  x-api-slug: v1categorylist-output-format-get
+  description: Return the law categories for a given category type..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg
+  humanURL: http://nrel.gov
+  baseURL: https://developer.nrel.gov//api/transportation-incentives-laws
+  tags: SMS, Energy, Environment, Jobs, Energy, Enterprise, API Provider, Data Provider,
+    Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/national-renewable-energy-laboratory/v1categorylist-output-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/national-renewable-energy-laboratory/v1categorylist-output-format-get-openapi.md
+- name: Transportation Laws and Incentives - Return the law categories for a given
+    category type.
+  x-api-slug: v1categorylist-output-format-get
+  description: Return the law categories for a given category type..
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg
+  humanURL: http://nrel.gov
+  baseURL: https://developer.nrel.gov//api/transportation-incentives-laws
+  tags: SMS, Energy, Environment, Jobs, Energy, Enterprise, API Provider, Data Provider,
+    Profiles, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/national-renewable-energy-laboratory/v1categorylist-output-format-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/national-renewable-energy-laboratory/v1categorylist-output-format-get-openapi.md
 - name: Transportation Laws and Incentives - Return the law categories for a given
     category type.
   x-api-slug: v1categorylist-output-format-get

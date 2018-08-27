@@ -12,11 +12,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-payl
 x-kinRank: "7"
 x-alexaRank: "6810"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/paylocity/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Paylocity - Get All Custom Fields
+  x-api-slug: v2companiescompanyidcustomfieldscategory-get
+  description: Get All Custom Fields for the selected company
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-paylocity.jpg
+  humanURL: http://www.paylocity.com
+  baseURL: https://api.paylocity.com//api
+  tags: Payments, API Provider, Human Resources, Payroll, SaaS, Technology, Enterprise,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/paylocity/v2companiescompanyidcustomfieldscategory-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/paylocity/v2companiescompanyidcustomfieldscategory-get-openapi.md
 - name: Paylocity - Get All Custom Fields
   x-api-slug: v2companiescompanyidcustomfieldscategory-get
   description: Get All Custom Fields for the selected company

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreak
 x-kinRank: "8"
 x-alexaRank: "12286"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,20 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/categoriesflat-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/categoriesflat-get-openapi.md
+- name: Spreaker API - Explore Category Items
+  x-api-slug: explorecategory-id-get
+  description: 'This API returns information and items of a specific category. The
+    response contains two properties at root level:'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg
+  humanURL: http://spreaker.com
+  baseURL: http://api.spreaker.com//
+  tags: Radio, Audiossssssss, Target, Music, Stack Network, Mobile, Technology, internet,
+    General Data, Relative Data, Service API, Podcasts, Relative StreamRank, Streams
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/explorecategory-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/explorecategory-id-get-openapi.md
 - name: Spreaker API - Explore Category Items
   x-api-slug: explorecategory-id-get
   description: 'This API returns information and items of a specific category. The

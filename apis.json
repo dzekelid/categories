@@ -1,0 +1,964 @@
+{
+	"name": "Streadata.io API Gallery - Categories",
+	"description": "This is a repository of categories APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/categories.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://categories.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "eBay",
+			"x-api-slug": "ebay",
+			"description": "Buy and sell electronics, cars, fashion apparel, collectibles, sporting goods, digital cameras, baby items, coupons, and everything else on eBay, the worlds online marketplace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/138-ebay.jpg",
+			"humanURL": "https://ebay.com",
+			"baseURL": "https://api.ebay.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/ebay/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NPR",
+			"x-api-slug": "npr",
+			"description": "NPR delivers breaking national and world news. Also top stories from business, politics, health, science, technology, music, arts and culture. Subscribe to podcasts and RSS feeds.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/141-npr.jpg",
+			"humanURL": "http://npr.org",
+			"baseURL": "https://api.npr.org//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reverb",
+			"x-api-slug": "reverb",
+			"description": "Reverb&#8217;s mission is to connect people with meaningful content.Reverb was created to find and connect the rich associations between words, ideas, content, and people. Through our products, we enhance broader knowledge around favorite topics by surfacing interesting information readers might not uncover on their own. We make tools for content understanding at every level from the single word on up. Wordnik: Get a full view of any word you???re interested in, with definitions, example sentences, related words, tweets from Twitter, pictures from Flickr, and much more.Reverb for Publishers: Reverb for Publishers brings relevant content to web audiences and surfaces additional content for publishers.Reverb for Developers: Reverb is committed to the open-source community and is proudly contributing infrastructure software to power applications and enterprises both small and gigantic. Our involvement with the Wordnik API, Scalatra, Swagger and Atmosphere is detailed on our site.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/145_logo.png",
+			"humanURL": "https://helloreverb.com/app",
+			"baseURL": "https://api.reverb.com//api",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/reverb/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Diffbot",
+			"x-api-slug": "diffbot",
+			"description": "Never write another web scraper. Diffbot automates web data extraction from any website using AI, computer vision, &amp; machine learning.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/181-diffbot.jpg",
+			"humanURL": "http://www.diffbot.com/our-apis/follow/",
+			"baseURL": "https:////",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/diffbot/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Disqus",
+			"x-api-slug": "disqus",
+			"description": "Disqus offers the best add-on tools for websites to increase engagement. We help publishers power online discussions with comments and earn revenue with native advertising.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/182-disqus.jpg",
+			"humanURL": "https://disqus.com/",
+			"baseURL": "https:///",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/disqus/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Etsy",
+			"x-api-slug": "etsy",
+			"description": "Find handmade, vintage, and unique goods that express who you are.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/192-etsy.jpg",
+			"humanURL": "http://www.etsy.com/",
+			"baseURL": "https://openapi.etsy.com//v2/private/",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Eventbrite",
+			"x-api-slug": "eventbrite",
+			"description": "Eventbrite brings people together through live experiences. Discover events that match your passions, or create your own with online ticketing tools.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/193-eventbrite.jpg",
+			"humanURL": "http://eventbriteapi.com",
+			"baseURL": "https://www.eventbrite.com//%7Bdata-type%7D/",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/eventbrite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Foursquare",
+			"x-api-slug": "foursquare",
+			"description": "Foursquare helps you find the perfect places to go with friends. Discover the best food, nightlife, and entertainment in your area.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/203-foursquare.jpg",
+			"humanURL": "http://blog.foursquare.com",
+			"baseURL": "https:///",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/foursquare/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigOven",
+			"x-api-slug": "bigoven",
+			"description": "Free recipe app for home cooks. Create a meal plan, grocery list and more from your favorite recipes. Organize your recipe collection and take it anywhere.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/379-bigoven.jpg",
+			"humanURL": "http://www.bigoven.com",
+			"baseURL": "https://api2.bigoven.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigoven/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spreaker",
+			"x-api-slug": "spreaker",
+			"description": "Discover and listen to your favorite podcasts for free or sign up to create your own!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/657-spreaker.jpg",
+			"humanURL": "http://spreaker.com",
+			"baseURL": "http://api.spreaker.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NewsCred",
+			"x-api-slug": "newscred",
+			"description": "NewsCred is the leading enterprise content marketing company. NewsCred delivers content marketing solutions that drive business results for top brands",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/869-newscred.jpg",
+			"humanURL": "http://newscred.com",
+			"baseURL": "https://api.newscred.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OpenRouteService",
+			"x-api-slug": "openrouteservice",
+			"description": "OpenStreetMap is the free wiki world map.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openrouteservice.jpg",
+			"humanURL": "http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22",
+			"baseURL": "https://cv.ap.org//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/openrouteservice/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gumroad",
+			"x-api-slug": "gumroad",
+			"description": "Sell music, comics, software, books, and films directly to your audience.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumroad.jpg",
+			"humanURL": "http://gumroad.com",
+			"baseURL": "https://api.gumroad.com//v2",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "National Renewable Energy Laboratory",
+			"x-api-slug": "national-renewable-energy-laboratory",
+			"description": "The National Renewable Energy Laboratory (NREL) is the nations primary laboratory for renewable energy and energy efficiency research and development (R&D).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1097-national-renewable-energy-laboratory.jpg",
+			"humanURL": "http://nrel.gov",
+			"baseURL": "https://developer.nrel.gov//api/transportation-incentives-laws",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/national-renewable-energy-laboratory/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Spotify",
+			"x-api-slug": "spotify",
+			"description": "Spotify is a digital music service that gives you access to millions of songs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1165-spotify.jpg",
+			"humanURL": "http://www.spotify.com",
+			"baseURL": "https://api.spotify.com//v1",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Iconfinder",
+			"x-api-slug": "iconfinder",
+			"description": "Iconfinder is the leading search engine and market place for vector icons in SVG, PNG, CSH and AI format..",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1538-iconfinder.jpg",
+			"humanURL": "http://iconfinder.com",
+			"baseURL": "http://api.iconfinder.com//v2/",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/iconfinder/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "MySpace Developers",
+			"x-api-slug": "myspace-developers",
+			"description": "AskMyspace: http://askmyspace.com  Twitter: http://twitter.com/Myspace  Instagram: http://instagram.com/Myspace  Tumblr: http://myspace.tumblr.com  YouTube: http://www.youtube.com/Myspace",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg",
+			"humanURL": "http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API",
+			"baseURL": "https://api.myspace.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/myspace-developers/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Envestnet",
+			"x-api-slug": "envestnet",
+			"description": "Build and transform financial apps and services with access to financial data through our APIs and digital solutions for banks, developers, and innovators.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1691-yodlee.jpg",
+			"humanURL": "http://www.yodlee.com/",
+			"baseURL": "https://api.crunchbase.com//v/3",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/envestnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "moltin",
+			"x-api-slug": "moltin",
+			"description": "The comprehensive eCommerce API infrastructure for any platform. Moltin handles data storage and eCommerce logic in the cloud so that you can focus on creating great customer experiences.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/moltin-logo.png",
+			"humanURL": "https://moltin.com",
+			"baseURL": "https://api.moltin.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/moltin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Meetup",
+			"x-api-slug": "meetup",
+			"description": "Find Meetups so you can do more of what matters to you. Or create your own group and meet people near you who share your interests.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/6564-meetup.jpg",
+			"humanURL": "http://meetup.com",
+			"baseURL": "https:///",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Product Hunt",
+			"x-api-slug": "product-hunt",
+			"description": "Product Hunt is a curation of the best new products, every day. Discover the latest mobile apps, websites, and technology products that everyones talking about.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11269-product-hunt.jpg",
+			"humanURL": "http://producthunt.com",
+			"baseURL": "https://api.producthunt.com//v1",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/product-hunt/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NewsWhip",
+			"x-api-slug": "newswhip",
+			"description": "Understand what social media content resonates with audiences. Centralize your social media monitoring and analytics to discover whats driving engagement.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11443-newswhip.jpg",
+			"humanURL": "https://www.newswhip.com/",
+			"baseURL": "https://api.newswhip.com/v1/",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newswhip/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Digital River",
+			"x-api-slug": "digital-river",
+			"description": "Digital Riveris a public company that provides global ecommerce, payments and marketing services. In 2013, Digital River processed more than $30 billion in online transactions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png",
+			"humanURL": "https://digitalriver.com",
+			"baseURL": "https://store.digitalriver.com//store/{mysite}",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HERE",
+			"x-api-slug": "here",
+			"description": "HERE Technologies enables people, enterprises and cities around the world to harness the power of location and create innovative solutions that make our lives safer and more efficient. We transform information from devices, vehicles, infrastructure and...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg",
+			"humanURL": "https://developer.here.com",
+			"baseURL": "https://weather.cit.api.here.com//weather/1.0",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/here/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "3dcart",
+			"x-api-slug": "3dcart",
+			"description": "The 3dcart shopping cart software is a complete web store solution for anyone looking to start an online business, add a shopping cart to their existing website, or to replace their existing shopping cart platform. 3dcart includes the latest, most innovative features, tools, support and technology needed to build, promote and grow your online business.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21488-www-3dcart-com.jpg",
+			"humanURL": "http://www.3dcart.com",
+			"baseURL": "https://apirest.3dcart.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/3dcart/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "BigCommerce",
+			"x-api-slug": "bigcommerce",
+			"description": "BigCommerce is the world&rsquo;s leading cloud ecommerce platform for established and rapidly-growing businesses. Combining enterprise functionality, an open architecture and app ecosystem, and market-leading performance, BigCommerce enables businesses to grow online sales with 80% less cost, time and complexity than on-premise software. BigCommerce powers B2B and B2C ecommerce for more than 60,000 SMBs, 2,000+ mid-market businesses, more than 25 Fortune 1000 companies, and industry-leading brands.",
+			"image": "",
+			"humanURL": "http://bigcommerce.com",
+			"baseURL": "https://api.bigcommerce.com//stores",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS RDS",
+			"x-api-slug": "aws-rds",
+			"description": "Amazon Relational Database Service (Amazon RDS) makes it easy to set up, operate, and scale arelational databasein the cloud. It provides cost-efficient and resizable capacity while managing time-consuming database administration tasks, freeing you up to focus on your applications and business. Amazon RDS provides you six familiar database engines to choose from, includingAmazon Aurora,PostgreSQL,MySQL,MariaDB,Oracle, andMicrosoft SQL Server.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png",
+			"humanURL": "https://aws.amazon.com/rds/",
+			"baseURL": ":///",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/aws-rds/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Redshift",
+			"x-api-slug": "aws-redshift",
+			"description": "Amazon Redshift is a fast, fully managed, petabyte-scaledata warehousethat makes it simple and cost-effective to analyze all your data using your existing business intelligence tools. Start small for $0.25 per hour with no commitments and scale to petabytes for $1,000 per terabyte per year, less than a tenth the cost of traditional solutions. Customers typically see 3x compression, reducing their costs to $333 per uncompressed terabyte per year.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png",
+			"humanURL": "https://aws.amazon.com/redshift/",
+			"baseURL": ":///",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/aws-redshift/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Books",
+			"x-api-slug": "google-books",
+			"description": "Google Books is our effort to make book content more discoverable on the Web. Using the Google Books API, your application can perform full-text searches and retrieve book information, viewability and eBook availability. You can also manage your personal bookshelves.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-03-16 at 4.28.26 PM.png",
+			"humanURL": "https://developers.google.com/books/",
+			"baseURL": "://www.googleapis.com//books/v1",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/google-books/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Mattermost",
+			"x-api-slug": "mattermost",
+			"description": "Open source, private cloud Slack-alternative, Workplace messaging for web, PCs and phones. MIT-licensed. Hundreds of contributors. 14 languages. Secure, configurable, and scalable from teams to the enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mattermost-logo.png",
+			"humanURL": "https://mattermost.com",
+			"baseURL": "https:///",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/mattermost/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Jumpseller",
+			"x-api-slug": "jumpseller",
+			"description": "We founded Jumpseller.com in 2009 in Europe  we called it Vendder back then  and released our first version of the Jumpseller product in September 2010. After releasing the product we quickly grew to thousands of customers. In November 2010, we recei...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28432-jumpseller-api.jpg",
+			"humanURL": "http://jumpseller.com",
+			"baseURL": "https://api.jumpseller.com//v1",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/jumpseller/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/kaltura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Paylocity",
+			"x-api-slug": "paylocity",
+			"description": "Paylocity has delivered industry-leading software and unmatched customer service since our inception. Our mission of elevating payroll and human resources across the backroom and into the boardroom speaks to just that. Today, Paylocity continues to develop innovative solutions that simplify the lives of payroll and HR professionals across the country. Through powerful analytics, robust reporting, intuitive usability, and modern functionality&mdash;our clients increase efficiency and manage workforces more effectively.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28482-paylocity.jpg",
+			"humanURL": "http://www.paylocity.com",
+			"baseURL": "https://api.paylocity.com//api",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/paylocity/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Transport for London Unified",
+			"x-api-slug": "transport-for-london-unified",
+			"description": "We are the integrated transport authority responsible for delivering Mayor of London Sadiq Khans strategy and commitments on transport. We run the day-to-day operation of the Capitals public transport network and manage Londons main roads.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png",
+			"humanURL": "https://tfl.gov.uk/",
+			"baseURL": "https://api.tfl.gov.uk//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/transport-for-london-unified/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Clover",
+			"x-api-slug": "clover",
+			"description": "Clover, a First Data company, builds the largest open-architecture point of sale solution aimed at small &amp; medium sized business owners. Our products are changing the consumer/merchant experience for the better, opening avenues for seamless customer-merchant interactions. There are five versions of Clover, including the Clover Station, Clover Mobile, Clover Mini, Clover Go, and Clover Flex. With Clover, First Data is aiming to create the largest open architecture operating system for commerce-enabling solutions and applications for business owners.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/clover-logo.png",
+			"humanURL": "https://www.clover.com",
+			"baseURL": "https:///merchants/https://api.clover.com",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/clover/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Akeneo",
+			"x-api-slug": "akeneo",
+			"description": "Our team has been working in the e-commerce industry for over 10 years. As we were helping brands to grow their online businesses, we realized that they were all struggling with complex or archaic systems to manage product information. We founded Akeneo in 2013 with the idea that products are the most important assets in a company and that many merchants lack a tool to help them manage and leverage this crucial asset. Merchants needed a tool that was designed for marketers and flexible enough to be integrated with any third-party application.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/akeneo-logo.png",
+			"humanURL": "https://akeneo.com",
+			"baseURL": "https://example.com//api",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ATTOM",
+			"x-api-slug": "attom",
+			"description": "Search public property records including real estate data: sale, ownership, tax, and more - for more than 150 million U.S. properties. ATTOM Data Solutions is the curator of ATTOM, a multi-sourced national property data warehouse that contains tax, deed, mortgage, foreclosure, environmental risk, natural hazard, health hazard, neighborhood characteristic and property characteristic data for over 155 million U.S. properties, delivering actionable data to clients and powering consumer websites owned by ATTOM Data Solutions: RealtyTrac.com, Homefacts.com, and HomeDisclosure.com.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28881-api-developer-attomdata-com.jpg",
+			"humanURL": "https://api.developer.attomdata.com",
+			"baseURL": "https://search.onboard-apis.com//communityapi/v2.0.0",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/attom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Broadleaf Commerce",
+			"x-api-slug": "broadleaf-commerce",
+			"description": "Broadleaf Commerce is a software technology company headquartered in Dallas, Texas, providing an open source Java eCommerce platform based on Spring Framework.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28889-www-broadleafcommerce-com.jpg",
+			"humanURL": "https://www.broadleafcommerce.com",
+			"baseURL": "https://demo.broadleafcommerce.org//api/v1",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/broadleaf-commerce/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Charity Navigator",
+			"x-api-slug": "charity-navigator",
+			"description": "Charity Navigator is an American independent charity watchdog organization that evaluates charitable organizations in the United States.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28893-www-charitynavigator-org.jpg",
+			"humanURL": "http://www.charitynavigator.org",
+			"baseURL": "https://api.data.charitynavigator.org//v2",
+			"tags": "Categories",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/charity-navigator/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Categories",
+	"include": [
+		{
+			"name": "eBay",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/ebay/apis.yaml"
+		},
+		{
+			"name": "NPR",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/npr/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Reverb",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/reverb/apis.yaml"
+		},
+		{
+			"name": "Diffbot",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/diffbot/apis.yaml"
+		},
+		{
+			"name": "Disqus",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/disqus/apis.yaml"
+		},
+		{
+			"name": "Etsy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/etsy/apis.yaml"
+		},
+		{
+			"name": "Eventbrite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/eventbrite/apis.yaml"
+		},
+		{
+			"name": "Foursquare",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/foursquare/apis.yaml"
+		},
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "BigOven",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigoven/apis.yaml"
+		},
+		{
+			"name": "Spreaker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spreaker/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "NewsCred",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newscred/apis.yaml"
+		},
+		{
+			"name": "OpenRouteService",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/openrouteservice/apis.yaml"
+		},
+		{
+			"name": "Gumroad",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/gumroad/apis.yaml"
+		},
+		{
+			"name": "National Renewable Energy Laboratory",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/national-renewable-energy-laboratory/apis.yaml"
+		},
+		{
+			"name": "Spotify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/spotify/apis.yaml"
+		},
+		{
+			"name": "Iconfinder",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/iconfinder/apis.yaml"
+		},
+		{
+			"name": "MySpace Developers",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/myspace-developers/apis.yaml"
+		},
+		{
+			"name": "Envestnet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/envestnet/apis.yaml"
+		},
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/square/apis.yaml"
+		},
+		{
+			"name": "moltin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/moltin/apis.yaml"
+		},
+		{
+			"name": "Meetup",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/meetup/apis.yaml"
+		},
+		{
+			"name": "Product Hunt",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/product-hunt/apis.yaml"
+		},
+		{
+			"name": "NewsWhip",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/newswhip/apis.yaml"
+		},
+		{
+			"name": "Digital River",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/digital-river/apis.yaml"
+		},
+		{
+			"name": "HERE",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/here/apis.yaml"
+		},
+		{
+			"name": "3dcart",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/3dcart/apis.yaml"
+		},
+		{
+			"name": "BigCommerce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/bigcommerce/apis.yaml"
+		},
+		{
+			"name": "AWS RDS",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/aws-rds/apis.yaml"
+		},
+		{
+			"name": "AWS Redshift",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/aws-redshift/apis.yaml"
+		},
+		{
+			"name": "Google Books",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/google-books/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "Mattermost",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/mattermost/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Jumpseller",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/jumpseller/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/kaltura/apis.yaml"
+		},
+		{
+			"name": "Paylocity",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/paylocity/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Transport for London Unified",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/transport-for-london-unified/apis.yaml"
+		},
+		{
+			"name": "Clover",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/clover/apis.yaml"
+		},
+		{
+			"name": "Akeneo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/akeneo/apis.yaml"
+		},
+		{
+			"name": "ATTOM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/attom/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Broadleaf Commerce",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/broadleaf-commerce/apis.yaml"
+		},
+		{
+			"name": "Charity Navigator",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/charity-navigator/apis.yaml"
+		}
+	]
+}

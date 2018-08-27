@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -200,6 +200,194 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-get-openapi.md
+- name: Jira Cloud REST API - Get status category
+  x-api-slug: api2statuscategoryidorkey-get
+  description: Returns a full representation of the StatusCategory having the given
+    id or key
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2statuscategoryidorkey-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2statuscategoryidorkey-get-openapi.md
+- name: Jira Cloud REST API - Get status category
+  x-api-slug: api2statuscategoryidorkey-get
+  description: Returns a full representation of the StatusCategory having the given
+    id or key
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2statuscategoryidorkey-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2statuscategoryidorkey-get-openapi.md
+- name: Jira Cloud REST API - Remove project category
+  x-api-slug: api2projectcategoryid-delete
+  description: Delete a project category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-delete-openapi.md
+- name: Jira Cloud REST API - Remove project category
+  x-api-slug: api2projectcategoryid-delete
+  description: Delete a project category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-delete-openapi.md
+- name: Jira Cloud REST API - Update project category
+  x-api-slug: api2projectcategoryid-put
+  description: Modify a project category via PUT. Any fields present in the PUT will
+    override existing values. As a convenience, if a field is not present, it is silently
+    ignored.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-put-openapi.md
+- name: Jira Cloud REST API - Update project category
+  x-api-slug: api2projectcategoryid-put
+  description: Modify a project category via PUT. Any fields present in the PUT will
+    override existing values. As a convenience, if a field is not present, it is silently
+    ignored.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-put-openapi.md
+- name: Jira Cloud REST API - Get project category by id
+  x-api-slug: api2projectcategoryid-get
+  description: Contains a representation of a project category in JSON format.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-get-openapi.md
+- name: Jira Cloud REST API - Get project category by id
+  x-api-slug: api2projectcategoryid-get
+  description: Contains a representation of a project category in JSON format.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-get-openapi.md
+- name: Jira Cloud REST API - Get project category by id
+  x-api-slug: api2projectcategoryid-get
+  description: Contains a representation of a project category in JSON format.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategoryid-get-openapi.md
+- name: Jira Cloud REST API - Create project category
+  x-api-slug: api2projectcategory-post
+  description: Create a project category via POST.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-post-openapi.md
+- name: Jira Cloud REST API - Create project category
+  x-api-slug: api2projectcategory-post
+  description: Create a project category via POST.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-post-openapi.md
+- name: Jira Cloud REST API - Create project category
+  x-api-slug: api2projectcategory-post
+  description: Create a project category via POST.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-post-openapi.md
+- name: Jira Cloud REST API - Create project category
+  x-api-slug: api2projectcategory-post
+  description: Create a project category via POST.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/atlassian/api2projectcategory-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

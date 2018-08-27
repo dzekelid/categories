@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspa
 x-kinRank: "7"
 x-alexaRank: "4691"
 tags: Categories
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/myspace-developers/apis.md
 specificationVersion: "0.14"
 apis:
@@ -38,6 +38,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategories-get-openapi.md
+- name: My Space - Get Mediaitems Personid Videos Supported Categories Categoryid
+  x-api-slug: 1-0mediaitemspersonidvideossupportedcategoriescategoryid-get
+  description: Retrieves videos for Category.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspace-developers.jpg
+  humanURL: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+  baseURL: https://api.myspace.com//
+  tags: Social, Opensocial, Social, internet, Technology, Mobile, API Provider, Profiles,
+    General Data, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/categories/master/_listings/myspace-developers/1-0mediaitemspersonidvideossupportedcategoriescategoryid-get-openapi.md
 - name: My Space - Get Mediaitems Personid Videos Supported Categories Categoryid
   x-api-slug: 1-0mediaitemspersonidvideossupportedcategoriescategoryid-get
   description: Retrieves videos for Category.
